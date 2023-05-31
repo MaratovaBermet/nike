@@ -1,0 +1,28 @@
+.essence{
+  height: 500px;
+  position: relative;
+  &__flash{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left: -3px;
+    width: calc(100% - 5px);
+  }
+  &__red{
+    background: #BA0000;
+    transform: rotate(-1.91deg);
+  }
+  &__black{
+    background:  #000000;
+    transform: rotate(2.92deg);
+  }
+  &__flash-text {
+    font-style: italic;
+    font-size: 32px;
+    letter-spacing: 1em;
+    color: #FFFFFF;
+  }
+}

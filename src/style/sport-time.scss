@@ -1,0 +1,91 @@
+.sports-time {
+  padding: 86px 0 80px;
+  margin-bottom: 120px;
+
+  &__title {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+ &__title::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 357px;
+    height: 148px;
+    left: -15px;
+    top: 8px;
+
+    mix-blend-mode: multiply;
+  }
+  &__title > span {
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+    transform: rotate(-10.67deg);
+    font-style: italic;
+    font-size: 96px;
+    line-height: 115px;
+    text-transform: capitalize;
+  }
+ &__title > span:first-child {
+    left: 68px;
+    z-index: 1;
+    color: #FFFFFF;
+  }
+  &__title > span:last-child {
+    right: 68px;
+    top: 18px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+  &__grid {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 55px;
+  }
+  &__grid:nth-child(3) {
+    grid-column-start: 3/4;
+    grid-row: 2/3;
+  }
+ &__card {
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  &__card-product {
+    position: absolute;
+    bottom: 40px;
+  }
+  &__card-desk {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+  }
+  &__card-title {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  .&__btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    padding: 18px 24px;
+    font-size: 16px;
+    line-height: 12px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+  }
+
+}

@@ -1,0 +1,106 @@
+.home{
+  padding: 258px 0 0;
+  background: black url("../images/homeBG.png") center/cover no-repeat;
+  &__block{
+    background: black url("../images/homeBGtext.png")bottom/contain no-repeat;
+    display: flex;
+    column-gap: 94px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__info{
+    width: 492px;
+  }
+  &__title{
+    font-style: italic;
+    font-weight: 700;
+    font-size:48px ;
+    line-height: 48px;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+  }
+  &__details{
+    margin: 32px 0;
+    display: flex;
+  }
+  &__price{
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  &__details-right{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+  }
+  &__btn{
+    font-size: 12px;
+    padding: 18px 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+    background: transparent;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  &__size{
+     font-size: 16px;
+    margin-right: 19px;
+    color: #FFFFFF;
+  }
+
+  &__size-select{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+    &__option{
+      color: black;
+      text-align: center;
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  &__swiper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+  }
+  &__row{
+    width: 940px;
+
+  }
+  &__card{
+    padding: 134px 0 61px 32px;
+    border: 2px solid #FFFFFF;
+    position: relative;
+  }
+  &__card-img{}
+  position: absolute;
+  left: 15px;
+  top: -35px;
+  width: 210px;
+  &__card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__arrows{
+    column-gap: 44px;
+    display: flex;
+    align-items: center;
+  }
+  &__arrow{
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+}
+

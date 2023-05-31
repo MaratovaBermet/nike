@@ -1,0 +1,40 @@
+.home {
+  padding: 258px 0 368px;
+  background: black url("../images/homeBG.png") center/cover no-repeat;
+}
+.home__block {
+  display: flex;
+  column-gap: 94px;
+  justify-content: center;
+}
+.home__info {
+  width: 492px;
+}
+.home__title {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+}
+.home__details {
+  margin: 32px 0;
+  display: flex;
+}
+.home__price {
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.home__details-right {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+.home__size {
+  font-size: 16px;
+  margin-right: 19px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=home.css.map */

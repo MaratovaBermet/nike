@@ -1,0 +1,13 @@
+.modern {
+  display: grid;
+}
+
+.modern__title {
+  color: red;
+}
+
+.modern__text {
+  color: white;
+}
+
+/*# sourceMappingURL=modern.css.map */
